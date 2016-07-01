@@ -1,0 +1,9 @@
+# Site settings
+title: Cali's Greenest
+email: info@calisgreenest.com
+description: Providing San Diego the with the best and most affordable meds without sacrificing quality.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://calisgreenest.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
