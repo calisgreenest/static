@@ -173,16 +173,18 @@ nav.navbar {
   }
 }
 
-.features-wrap {
-  background: rgb(43,147,250);
-  background: -moz-linear-gradient(top,  rgba(43,147,250,1) 0%, rgba(43,147,250,0.5) 100%);
-  background: -webkit-linear-gradient(top,  rgba(43,147,250,1) 0%,rgba(43,147,250,0.5) 100%);
-  background: linear-gradient(to bottom,  rgba(43,147,250,1) 0%,rgba(43,147,250,0.5) 100%);
+.contact-us {
+  background: rgb(27,178,58); /* Old browsers */
+  background: -moz-linear-gradient(left,  rgba(27,178,58,1) 0%, rgba(63,211,0,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left,  rgba(27,178,58,1) 0%,rgba(63,211,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right,  rgba(27,178,58,1) 0%,rgba(63,211,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
   display: flex;
   padding: 10px;
   box-sizing: border-box;
   padding-top: 100px;
   flex-flow: column nowrap;
+  min-height:100vh;
 
   .main-img-wrap {
     margin: 0 auto;
@@ -196,12 +198,13 @@ nav.navbar {
   }
 
   h1 {
-    margin: 40px auto;
+    margin: 80px auto 40px auto;
     box-sizing: border-box;
     text-align: center;
-    font-weight: 300;
+    font-weight: 700;
     color: #fff;
-    font-size: 30px;
+    font-size: 40px;
+    text-transform: uppercase;
     letter-spacing: 3px;
 
     @include media-query($on-palm) {

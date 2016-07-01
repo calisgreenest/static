@@ -11,7 +11,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
@@ -277,35 +277,41 @@ nav.navbar {
         cursor: pointer;
         transition: background 200ms ease-out; }
 
-.features-wrap {
-  background: #2b93fa;
-  background: -moz-linear-gradient(top, #2b93fa 0%, rgba(43, 147, 250, 0.5) 100%);
-  background: -webkit-linear-gradient(top, #2b93fa 0%, rgba(43, 147, 250, 0.5) 100%);
-  background: linear-gradient(to bottom, #2b93fa 0%, rgba(43, 147, 250, 0.5) 100%);
+.contact-us {
+  background: #1bb23a;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #1bb23a 0%, #3fd300 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #1bb23a 0%, #3fd300 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #1bb23a 0%, #3fd300 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   display: flex;
   padding: 10px;
   box-sizing: border-box;
   padding-top: 100px;
-  flex-flow: column nowrap; }
-  .features-wrap .main-img-wrap {
+  flex-flow: column nowrap;
+  min-height: 100vh; }
+  .contact-us .main-img-wrap {
     margin: 0 auto;
     max-width: 900px;
     width: 100%; }
-    .features-wrap .main-img-wrap img {
+    .contact-us .main-img-wrap img {
       width: 100%;
       height: auto; }
-  .features-wrap h1 {
-    margin: 40px auto;
+  .contact-us h1 {
+    margin: 80px auto 40px auto;
     box-sizing: border-box;
     text-align: center;
-    font-weight: 300;
+    font-weight: 700;
     color: #fff;
-    font-size: 30px;
+    font-size: 40px;
+    text-transform: uppercase;
     letter-spacing: 3px; }
     @media screen and (max-width: 600px) {
-      .features-wrap h1 {
+      .contact-us h1 {
         font-size: 20px; } }
-  .features-wrap img.channels-icons {
+  .contact-us img.channels-icons {
     margin: 40px auto;
     max-width: 500px;
     width: 100%;
@@ -313,49 +319,49 @@ nav.navbar {
     padding: 0 20px;
     box-sizing: border-box; }
     @media screen and (max-width: 600px) {
-      .features-wrap img.channels-icons {
+      .contact-us img.channels-icons {
         margin: 20px auto; } }
-  .features-wrap .grid {
+  .contact-us .grid {
     margin: 80px auto;
     display: flex;
     flex-flow: row nowrap; }
     @media screen and (max-width: 600px) {
-      .features-wrap .grid {
+      .contact-us .grid {
         margin: 40px auto;
         flex-flow: column nowrap;
         text-align: center; } }
-    .features-wrap .grid.reverse {
+    .contact-us .grid.reverse {
       flex-flow: row-reverse nowrap;
       text-align: right; }
       @media screen and (max-width: 600px) {
-        .features-wrap .grid.reverse {
+        .contact-us .grid.reverse {
           flex-flow: column nowrap;
           text-align: center; } }
-    .features-wrap .grid .img-wrapper {
+    .contact-us .grid .img-wrapper {
       flex: 0 0 auto;
       margin: auto 20px; }
       @media screen and (max-width: 600px) {
-        .features-wrap .grid .img-wrapper {
+        .contact-us .grid .img-wrapper {
           margin: 20px; } }
-      .features-wrap .grid .img-wrapper img {
+      .contact-us .grid .img-wrapper img {
         border-radius: 5px;
         max-width: 300px;
         box-shadow: 5px 10px 20px 5px rgba(0, 0, 0, 0.05); }
-    .features-wrap .grid .content-wrapper {
+    .contact-us .grid .content-wrapper {
       flex: 1;
       margin: auto 20px;
       padding: 40px;
       box-sizing: border-box; }
       @media screen and (max-width: 600px) {
-        .features-wrap .grid .content-wrapper {
+        .contact-us .grid .content-wrapper {
           padding: 0;
           margin: 20px; } }
-      .features-wrap .grid .content-wrapper h3 {
+      .contact-us .grid .content-wrapper h3 {
         color: #fff;
         letter-spacing: 3px;
         font-weight: 300;
         font-size: 22px; }
-      .features-wrap .grid .content-wrapper p {
+      .contact-us .grid .content-wrapper p {
         color: #333;
         font-weight: 700;
         letter-spacing: 1px;
