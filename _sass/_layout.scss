@@ -64,6 +64,46 @@
 
 }
 
+.menu {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin: auto;
+  padding: 40px;
+  box-sizing: border-box;
+  background-color: #1bb23a;
+  min-height: 100vh;
+
+  h4 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 0.95em;
+  }
+  h3 {
+    color: #000;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 0.95em;
+  }
+
+  div {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+  }
+}
+
+iframe {
+  border: 0;
+  border-radius: 20px;
+  margin: auto;
+  margin-right: 40px;
+}
+
+
 
 nav.navbar {
   width: 100vw;
